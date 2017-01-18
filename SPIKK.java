@@ -2,30 +2,29 @@ my MÄRKMED
 CLASS{}
 MAIN() { ... } 
 { ... } it includes METHOD having args (argumendid kogum väärtusi)
-// private tähendab, et see meetod on kättesaadav ainult siit failist.
-// static tähendab, et meetodi välja kutsumiseks ei pea eraldi Objekti looma.
+// PUBLIC - kättesaadav kogu sellesama klassi sees
+//PUBLIC STATIC - kättesaadav ka mujalt klassidest; STATIC tähendab, et meetodi välja kutsumiseks ei pea eraldi Objekti looma?
+// PRIVATE tähendab, et see meetod on kättesaadav ainult siinses 
 // boolean tähendab, et meetod peab lõpuks return'ima booleani tulemuseks
 
 ALGUS
-//Created by kylli on 10/13/16. LÜHIDALT:
- public class Standard {					
- public static void main(String[] args)    { ... }     } 
-/*
- * Created by kylli on 10/13/16. PIKEMALT SAMA:
- */
-public class Standard {					 //kutsume välja klassi meetodiga String tekst
-public static void main(String[] args) { 
-		System.out.println("Hey You there!"); } 	//looksulud vahel: miski oskus-tegevus
+public class Standard {					 //KLASS kutsume välja klassi meetodiga String tekst
+public static void main(String[] args) { 		//meetod
+		System.out.println("Hey You there!"); } //meetod oskus-tegevusega looksulud vahel
 } 
 
-public class MingiAsi{					
-public static void peamine(String args[]) {		//meetod nimega peamine
-for(int nr=0; nr<10; nr++){				//tsükkel
-System.out.println(nr);}}
+public class MingiAsi{					//KLASS
+public static void peamine(String args[]) {		//meetod nimega "peamine"
+for(int nr=0; nr<10; nr++) {				//tsükkel
+System.out.println("Vastus: " + nr);}}
 }
 
-//selline algus ka Trump-pomm:
-public class Rahakott extends Application		// harjutamine väike kalk, tulemuse tagastus
+//JavaFX STANDARD
+public class Main extends Application {
+    @Override
+    public void start(Stage primaryStage) throws Exception { //mis see teeb, throws Exception
+//JavaFX
+public class Rahakott extends Application		
 public class Rahakott {
     public static void main(String[] args) {
         int rahahunnik = 10;
@@ -35,50 +34,63 @@ public class Rahakott {
         System.out.println(rahahunnikALLES); }
 }
 
-//selline algus ka Trump-pomm: 
-public class Main extends Application {
-    GridPane laud;                              //defineerib laua olemasolu pluss selle suuruse
-    int lauaPikkusLaevades = 9;
-    int lauaLaiuslaevades = 9;
-    int laevaPikkusPx = 50;
-    Stage mainGameSquare;			//määrab piraadilaeva; Stage on programmiaken
-    Image avapilt = new Image("piraadilaev.png"); //Loo pilt
-    ImagePattern laevaMuster = new ImagePattern(avapilt);
-    Lauahaldus HaldurMina; //viide teisele klassile //defineerib muutuja väärtuseta, vaata edasi rida 115 seadistamine....
-    public Main() { try....// hakkab tegevus
-	    
-//i200: Stage on programmi aken, see jupp tekitab AKNA:
+	    //i200: JavaFX
 public class MinuKlass extends Application {
     @Override
-    public void start(Stage primaryStage) {
+    public void start(Stage primaryStage)  {         //JavaFX algab start(), mitte main()   !!!!!
         primaryStage.setTitle("MinuÄpp");
         primaryStage.show();}
 }
 
-***
-NB! mitte main() meetodiga, vaid start() - start on siis kui kasutame Java FX Applicationit	    
+	    
+	    //OBJEKTIDE DEFINEERIMISEGA: LOOMINE AVAMINE 
+	    //Trump-pomm + näide objektide defineerimine
+public class Main extends Application {
+Menu menu = new Menu();} 
+seadistanMiskiAsja();				//mention it, loomine - võib olla ka ühesõnaga
+int laevaPikkusPx = 50;
+Stage SeeOnMangulaud;			//määrab piraadilaeva; Stage on programmiaken
+Image avapilt = new Image("piraadilaev.png"); //Loo pilt. Sulgudes nimi. Ka viide?
+ImagePattern laevaMuster = new ImagePattern(avapilt);
+Lauahaldus HaldurMina; //viide teisele klassile nimega "Lauahaldur" selleks et teda siin klassis väljakutsuda  
+HaldurMina.loonLaevad(); // tühjad sulud, et läheks käima!!! Lauahaldus HaldurMina; on enne defineeritud. Lauahaldus on klass.
+public Stage menuWindow = new Stage();		//miks siin peab public ees olema??
+public static Neo neo; // there is a Neo 
+public static int fieldHeight = 300;
+public static boolean faceLeft;
+Smith[] smithArray = new Smith[10]; // there can be up to 10 smiths
+public ScoreReader scoreReader = new ScoreReader(); //public ees, et oleks KOGU selles klassis kättesaadav
+public Brawl(){ // this method launches the game. AVAB MEETODI
+addSmith(0); // adds the very first smith.  SULGUDES
+smithCounter = 0; // zero smiths killed in the beginning of the game; miks siin int ees pole?
+readKeys(neo, strikeZone); // 2 asja
+faceLeft = true;
 
-*** 
-HaldurMina.loonLaevad(); // tühjad sulud, et läheks käima!!! Lauahaldus HaldurMina; on enne defineeritud. Lauahaldus on klass.		   
-		  
-	MEETODITE READ nagu näiteks
-1) public main() { try....// hakkab tegevus
-2) public void start(Stage primaryStage) throws Exception { //Stage loob aknakasti väljaku
+	
+		   
+	    //meetodid:
+1) public main() { try....// siis siit hakkab tegevus
+   public Main() { try....// ilmselt ei ole vahet kas suur või väike algustäht
+2) public void start(Stage primaryStage) throws Exception { //JavaFX Stage loob aknakasti väljaku
         seadistanMiskiAsja();				//mention it, loomine
 3) public static void main(String[] args)    { ... } 
 4) public static int suvaT2ring() {			//?mis? public static int meetod arvu-genereerimiseks?
         return (int) (Math.random() * 6 + 1);}		//tagastamisel genereerib arvutuse
-5) public void start(Stage primaryStage) throws Exception {
-        Menu menu = new Menu();} 			// create it
 
-	
-	
-	
-		   
-OBJEKT LOOMINE AVAMINE = DEFINEERIMINE
-Menu menu = new Menu(); 			// open it
-// LOO UUS
-	   Stage stage = new Stage();		//Stage on programmiaken
+     
+
+ALGUS Mr.Smith=MENU
+public class Menu {
+    public Stage menuWindow = new Stage(); // makes main menu window
+    public Menu(){	//STANDARD
+        makeMenu();}
+    public void makeMenu(){     // method that adds all the main menu items together
+        Pane menuContent = new Pane(); // container for the menu content
+        Scene menuContentFrame = new Scene(menuContent, Brawl.fieldLength, Brawl.fieldHeight); // window resizer, holds content
+        menuWindow.setScene(menuContentFrame); // sets window resizer into the main menu window
+        menuWindow.show(); // displays the window
+...			   
+
 		   
 		   
 	    
@@ -164,3 +176,21 @@ MUU
 		
 TEXT in BOLD
 	title.setFont(Font.font("Arial", FontWeight.BOLD, 14));   //title on defineeritud
+   
+		
+		
+		if (Brawl.finalSmithCount > 0 && Brawl.finalSmithCount < 2) {
+            highScoreFailure.setText("You killed " + (Brawl.finalSmithCount) + " Smith"); // if just one smith killed
+        } else if (Brawl.finalSmithCount > 1) {
+            highScoreFailure.setText("You killed " + (Brawl.finalSmithCount) + " Smiths"); // it multiple smiths killed
+        } else {
+            highScoreFailure.setText("Use arrows to move, Spacebar to strike and Down to dodge bullets"); // if no smiths killed KORDAB JUHISEID UUESTI KUI POLE SAAVUTANUD
+        }
+		
+		
+EXTENDS
+public class Neo extends Fighter {
+public Neo () { // this is neo, ta erineb teistest, siia kirjutatakse tema erioamdused. 
+	//Tal on KÕIK mis on olemas "Fighter" klassis
+    }
+}
