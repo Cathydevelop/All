@@ -15,6 +15,13 @@ INTELLIJ for all OPs: https://www.jetbrains.com/help/idea/2016.1/keyboard-shortc
 WINDOWS KEYBOARD: https://support.microsoft.com/en-us/help/12445/windows-keyboard-shortcuts
 VIRTUAL KEYBOARD: http://gate2home.com/English-Keyboard
 
+HOW?
+https://www.jetbrains.com/help/idea/2016.2/tutorial-creating-running-and-packaging-your-first-java-application.html
+
+https://www.jetbrains.com/help/idea/2016.2/javafx.html
+
+IntelliJ Video Tutorials
+https://www.jetbrains.com/idea/documentation/
 
 
 
