@@ -34,7 +34,8 @@ cd going-to-new-location-folder
 rm -rf .git  to-remove-all-git-repo-previous-info
 git init
 kullis-MacBook-Pro:ZADANIE kullirist$ git add .
-kullis-MacBook-Pro:ZADANIE kullirist$ git commit -m "FIRST commit" git remote -v    kontroll kas on remote olemas if there is remote then I have to remove it….
+kullis-MacBook-Pro:ZADANIE kullirist$ git commit -m "FIRST commit"
+git remote -v    kontroll kas on remote olemas if there is remote then I have to remove it….
 git remote add origin git@refocusdevelop:refocusdevelop/ZADANIE.git
 git push -u origin master
 
