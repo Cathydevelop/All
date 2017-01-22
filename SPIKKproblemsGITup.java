@@ -1,5 +1,6 @@
 problems and GIT up
 2017-01
+GIT PUSH: wiki.itcollege.ee/index.php/I253_Informatika_eelkursus#Neljas_teema:_Git_ja_SSH_v.C3.B5tmed
   
 kullis-MacBook-Pro:~ kullirist$ ls -a   //et näha selle user .ssh kausta, kus on peidus võtmed
   cat .ssh/               //et näha sisse: id_rsa       id_rsa.pub   known_hosts 
