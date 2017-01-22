@@ -30,7 +30,7 @@ Host refocusdevelop
 	
 	
 BASH MASTER
-cd going-to-new-location-folder
+cd .....
 rm -rf .git  to-remove-all-git-repo-previous-info
 git init
 kullis-MacBook-Pro:ZADANIE kullirist$ git add .
@@ -38,7 +38,6 @@ kullis-MacBook-Pro:ZADANIE kullirist$ git commit -m "FIRST commit"
 git remote -v    kontroll kas on remote olemas if there is remote then I have to remove it….
 git remote add origin git@refocusdevelop:refocusdevelop/ZADANIE.git
 git push -u origin master
-
 
 kullis-MacBook-Pro:ZADANIE kullirist$ git remote remove origin    DELETING THE ORIGIN 
 git remote add origin git@refocusdevelop:refocusdevelop/ZADANIE.git
@@ -48,27 +47,31 @@ git push -u origin master
 
 kullis-MacBook-Pro:ZADANIE2 kullirist$ git push -uf origin master
 ERROR: Permission to Ankors/Tasks.git denied to kristdevelop.
+
+Saturday test push to someone' repo called Tasks
 kullis-MacBook-Pro:ZADANIE2 kullirist$ git remote -v
-git remote remove origin   DELETING THE ORIGIN 
+git remote remove origin      //DELETING THE ORIGIN  
 git remote add origin git@refocusdevelop:Ankors/Tasks.git
 git push -uf origin master
 “Branch master set up to track remote branch master from origin”
 
 
-SUNDAY13oo
+Sunday 22.01 WELLDONE
 omaarvutist vaid ZADANIE täiendamine ainult:
 git add .
 git commit -m "Sunday13oo"
 git push
 
+Sunday 22.01 WELLDONE
+pushing with IntelliJ said it is sussesscul but actually didnt upload all even src/ javafiles, but bash did it well!
+cd .....
+git init
+git add .
+git commit -m "Up arendusfailid"
+git push
 
 
-
-
-LONG
-
-
-KÄSUREA GITHUB diary
+LONG MEMO = DIARY Saturday 21.01
 Last login: Sat Jan 21 12:25:57 on ttys000
 kullis-MacBook-Pro:~ kullirist$ cd /Users/kullirist/IdeaProject/EKSAM
 kullis-MacBook-Pro:EKSAM kullirist$ pwd
