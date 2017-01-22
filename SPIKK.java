@@ -6,6 +6,12 @@ MAIN() { ... }
 //PUBLIC STATIC - kättesaadav ka mujalt klassidest; STATIC tähendab, et meetodi välja kutsumiseks ei pea eraldi Objekti looma?
 // PRIVATE tähendab, et see meetod on kättesaadav ainult siinses 
 // boolean tähendab, et meetod peab lõpuks return'ima booleani tulemuseks
+*funny: windows arvutites pole gitti tuleb install; paljud arvavad et macbookis pole bashi
+	
+UBUNTU https://help.ubuntu.com/community/KeyboardShortcuts
+TERMINAL BASH: http://ss64.com/bash/
+
+
 
 ALGUS
 public class Standard {					 //KLASS kutsume välja klassi meetodiga String tekst
