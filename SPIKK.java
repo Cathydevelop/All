@@ -7,9 +7,12 @@ MAIN() { ... }
 // PRIVATE tähendab, et see meetod on kättesaadav ainult siinses 
 // boolean tähendab, et meetod peab lõpuks return'ima booleani tulemuseks
 *funny: windows arvutites pole gitti tuleb install; paljud arvavad et macbookis pole bashi
-	
+TERMINAL BASH: http://ss64.com/bash/	
 UBUNTU https://help.ubuntu.com/community/KeyboardShortcuts
-TERMINAL BASH: http://ss64.com/bash/
+INTELLIJ for all OPs: https://www.jetbrains.com/help/idea/2016.1/keyboard-shortcuts-you-cannot-miss.html
+WINDOWS KEYBOARD: https://support.microsoft.com/en-us/help/12445/windows-keyboard-shortcuts
+VIRTUAL KEYBOARD: http://gate2home.com/English-Keyboard
+
 
 
 
