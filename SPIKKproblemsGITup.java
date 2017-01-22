@@ -451,3 +451,30 @@ To refocusdevelop:Ankors/Tasks.git
  + 8760826...b1f98fd master -> master (forced update)
 Branch master set up to track remote branch master from origin.
 kullis-MacBook-Pro:ZADANIE2 kullirist$ 
+
+
+
+
+kullis-MacBook-Pro:~ kullirist$ mv config .ssh/
+kullis-MacBook-Pro:~ kullirist$ ssh-a
+ssh-add    ssh-agent  
+kullis-MacBook-Pro:~ kullirist$ ssh-a
+ssh-add    ssh-agent  
+kullis-MacBook-Pro:~ kullirist$ ssh-add -l
+The agent has no identities.
+kullis-MacBook-Pro:~ kullirist$ ssh-add .s
+.sqlite_history  .ssh/            .subversion/     
+kullis-MacBook-Pro:~ kullirist$ ssh-add .ssh/id_rsa
+Identity added: .ssh/id_rsa (.ssh/id_rsa)
+kullis-MacBook-Pro:~ kullirist$ ssh-add .ssh/id_rsa2
+Identity added: .ssh/id_rsa2 (.ssh/id_rsa2)
+kullis-MacBook-Pro:~ kullirist$ ssh-add -l
+2048 SHA256:DvQXxvEkr0yKuhxyZ2/YshGOQPrlCYqxOh0CVD0t+lg .ssh/id_rsa (RSA)
+2048 SHA256:NyMGemam6oZOx0qvC53dAnmQvqcUZ8MQMc9/TqJrr4Y .ssh/id_rsa2 (RSA)
+kullis-MacBook-Pro:~ kullirist$ ssh -T kristdevelop
+Hi kristdevelop! You've successfully authenticated, but GitHub does not provide shell access.
+kullis-MacBook-Pro:~ kullirist$ ssh -T refocusdevelop
+Hi refocusdevelop! You've successfully authenticated, but GitHub does not provide shell access.
+kullis-MacBook-Pro:~ kullirist$  
+
+
