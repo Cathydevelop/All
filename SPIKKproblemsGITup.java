@@ -73,6 +73,12 @@ git add .
 git commit -m "Up arendusfailid"
 git push
 
+nüüd saan sellest aru:
+Jüri Ahhundov Kas keegi teab kuidas ma saan enda githubi lükata koodi üles, mille ma olen kristeri repost klooninud?
+Erik Ehrbach 
+Kui klooninud oled, siis .git kaust vaja ära kustutada ja uus git repo initsialiseerida. 
+Seejärel defineerid juba remote repo ära, mille githubis teinud ole ja teedki pushi sinna
+
 
 LONG MEMO = DIARY Saturday 21.01
 Last login: Sat Jan 21 12:25:57 on ttys000
