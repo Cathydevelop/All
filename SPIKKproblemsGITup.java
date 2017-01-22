@@ -16,8 +16,8 @@ Problem: THAT MUST BE OFF FROM SETTINGS OF GITHUB:
 Restrict editing to collaborators only
 Public wikis will still be readable by everyone
 
-setting multiple github account on one pc  “mherman.org managing multiple github”
- 2 accounts: FIRST IS MAIN ONE
+setting multiple github account on one pc 
+http://mherman.org/blog/2013/09/16/managing-multiple-github-accounts/#.WIS417Fh2Rt
   we created a sep file to Home catalogue, was instructed via:
 Host github.com
 	HostName github.com
@@ -27,6 +27,8 @@ Host refocusdevelop
 	HostName github.com
 	User git
 	IdentityFile ~/.ssh/id_rsa2
+2 accounts: FIRST IS MAIN, the second needs specification who is pushing??? git remote add origin git@refocusdevelop:refocusdevelop/ZADANIE.git
+
 	
 	
 BASH MASTER
