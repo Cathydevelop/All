@@ -212,3 +212,5 @@ public Neo () { // this is neo, ta erineb teistest, siia kirjutatakse tema erioa
 	//Tal on KÕIK mis on olemas "Fighter" klassis
     }
 }
+		
+The '\0' represents nothing in ASCII code.
