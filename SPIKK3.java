@@ -2,9 +2,14 @@
 meetodite seotus ja väljakutsumine
 static
 private
+seadistamised LIB
+TextIO kasutus
 
 WWW
 CODES https://github.com/caveofprogramming/java-beginners.git
 
 
-throws Exception - vastus vajaka, vea kontroll funk
+OOP 
+konstruktor klass konstruktor meetod
+
+throws Exception - vea kontroll funk
