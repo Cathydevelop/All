@@ -55,6 +55,12 @@ git push -uf origin master
 “Branch master set up to track remote branch master from origin”
 
 
+SUNDAY13oo
+omaarvutist vaid ZADANIE täiendamine ainult:
+git add .
+git commit -m "Sunday13oo"
+git push
+
 
 
 
