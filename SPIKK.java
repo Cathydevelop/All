@@ -5,6 +5,8 @@ MAIN() { ... }
 // PUBLIC - kättesaadav kogu sellesama klassi sees
 //PUBLIC STATIC - kättesaadav ka mujalt klassidest; STATIC tähendab, et meetodi välja kutsumiseks ei pea eraldi Objekti looma?
 // PRIVATE tähendab, et see meetod on kättesaadav ainult siinses 
+	STATIC 		= LIHTSALT TOOL. AN OBJECT. on kättesaadav mujalt klassidest
+	mitte-STATIC 	= KONKREETNE TOOL. THE OBJECT. vanaaegne kiiktool.
 // boolean tähendab, et meetod peab lõpuks return'ima booleani tulemuseks
 *funny: windows arvutites pole gitti tuleb install; paljud arvavad et macbookis pole bashi
 TERMINAL BASH: http://ss64.com/bash/	
