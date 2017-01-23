@@ -12,12 +12,11 @@ kullis-MacBook-Pro:~ kullirist$ ls -a   //et näha selle user .ssh kausta, kus o
   ls .ssh/*.pub        To see its full PATH
   cat .ssh/id_rsa2.pub TO COPY ITS CODE
   
-  
-Problem: THAT MUST BE OFF FROM SETTINGS OF GITHUB:
-Restrict editing to collaborators only
-Public wikis will still be readable by everyone
-
-setting multiple github account on one pc 
+ //ISSUES
+***rm -rf .git     this removes .git intialized
+***Problem:  MUST BE "OFF" FROM SETTINGS OF GITHUB: Restrict editing to collaborators only. Public wikis will still be readable by everyone
+***origin remote remove & the add
+***setting multiple github account on one pc 
 http://mherman.org/blog/2013/09/16/managing-multiple-github-accounts/#.WIS417Fh2Rt
   we created a sep file to Home catalogue, was instructed via:
 Host github.com
