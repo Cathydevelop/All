@@ -5,8 +5,14 @@ private
 seadistamised LIB
 TextIO kasutus
 
+
 WWW
 CODES https://github.com/caveofprogramming/java-beginners.git
+
+IntelliJ
+OS X: cmd + N
+Win/Linux: Alt + Insert
+generate constructor, toString, Overright methods; coywright
 
 
 
