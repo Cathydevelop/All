@@ -1,6 +1,7 @@
-WWW
-***AVATULT: 1.eksamiks
-***2. GitHub-leitud1/java-beginners/ https://github.com/caveofprogramming/java-beginners.git 
+WWW-avatult:
+***Eksamiks
+***Lihtne kood, minu kood
+***GitHub-leitud1/java-beginners/  KEERULINE https://github.com/caveofprogramming/java-beginners.git 
 
 
 OOP konstruktor klass konstruktor meetod
