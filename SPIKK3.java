@@ -1,11 +1,6 @@
 WWW
-READY CODES AS:
-https://github.com/caveofprogramming/java-beginners.git
-
-IntelliJ OS X: cmd + N
-Win/Linux: Alt + Insert = generate constructor, toString, Overright methods; coywright
-
-
+***AVATULT: 1.eksamiks
+***2. GitHub-leitud1/java-beginners/ https://github.com/caveofprogramming/java-beginners.git 
 
 
 OOP konstruktor klass konstruktor meetod
@@ -24,3 +19,8 @@ OOP MAATRIKS
  ...throws Exception - vea kontroll funk
  
  EXTENDS
+ 
+i200 1-1 Sissejuhatus
+i200 lehekülg, kuidas täiendada; õppetöö on online vormis, eesmärk 3 kuuga nooremprogrameerijaks; oma projekt ja iganädalased ülessanded, õppematerjal ja kommuunikool
+
+ 
