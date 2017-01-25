@@ -1,18 +1,10 @@
-õppida
-meetodite seotus ja väljakutsumine
-static
-private
-seadistamised LIB
-TextIO kasutus
-
-
 WWW
-CODES https://github.com/caveofprogramming/java-beginners.git
+READY CODES AS:
+https://github.com/caveofprogramming/java-beginners.git
 
-IntelliJ
-OS X: cmd + N
-Win/Linux: Alt + Insert
-generate constructor, toString, Overright methods; coywright
+IntelliJ OS X: cmd + N
+Win/Linux: Alt + Insert = generate constructor, toString, Overright methods; coywright
+
 
 
 
@@ -26,12 +18,9 @@ public String kassapidaja;                  //tegelasobjekt
 public Kassa(String kassapidajaSaabSiinUueNime){kassapidaja = kassapidajaSaabSiinUueNime;}
 
 OOP MAATRIKS
-1. Generate Matrix - start
-2. Output this Matrix - end
+1. Generate Matrix - start - tüüpiline et genereeri midagi
+2. Output this Matrix - end - siis väljasta
 
-
-  
-  
-
-
-throws Exception - vea kontroll funk
+ ...throws Exception - vea kontroll funk
+ 
+ EXTENDS
