@@ -24,6 +24,9 @@ IntelliJ Video Tutorials
 https://www.jetbrains.com/idea/documentation/
 
 
+IntelliJ OS X: cmd + N
+Win/Linux: Alt + Insert = generate constructor, toString, Overright methods; coywright
+
 
 ALGUS
 public class Standard {					 //KLASS kutsume välja klassi meetodiga String tekst
