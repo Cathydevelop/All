@@ -8,7 +8,7 @@ MAIN() { ... }
 	STATIC 		= LIHTSALT TOOL. AN OBJECT. on kättesaadav mujalt klassidest
 	mitte-STATIC 	= KONKREETNE TOOL. THE OBJECT. vanaaegne kiiktool.
 // boolean tähendab, et meetod peab lõpuks return'ima booleani tulemuseks
-*funny: windows arvutites pole gitti tuleb install; paljud arvavad et macbookis pole bashi
+
 TERMINAL BASH: http://ss64.com/bash/	
 UBUNTU https://help.ubuntu.com/community/KeyboardShortcuts
 INTELLIJ for all OPs: https://www.jetbrains.com/help/idea/2016.1/keyboard-shortcuts-you-cannot-miss.html
@@ -23,14 +23,13 @@ https://www.jetbrains.com/help/idea/2016.2/javafx.html
 IntelliJ Video Tutorials
 https://www.jetbrains.com/idea/documentation/
 
-
 IntelliJ OS X: cmd + N
 Win/Linux: Alt + Insert = generate constructor, toString, Overright methods; coywright
 
 
 ALGUS
 public class Standard {					 //KLASS kutsume välja klassi meetodiga String tekst
-public static void main(String[] args) { 		//meetod
+public static void main(String[] args) { 		//meetod NB! ilma static ei läinud tööle! Konstr. klassis aga on ilma...
 		System.out.println("Hey You there!"); } //meetod oskus-tegevusega looksulud vahel
 } 
 
@@ -43,7 +42,7 @@ System.out.println("Vastus: " + nr);}}
 //JavaFX STANDARD
 public class Main extends Application {
     @Override
-    public void start(Stage primaryStage) throws Exception { //mis see teeb, throws Exception
+    public void start(Stage primaryStage) throws Exception { //mis see teeb, throws Exception //ilma static
 //JavaFX
 public class Rahakott extends Application		
 public class Rahakott {
@@ -58,7 +57,7 @@ public class Rahakott {
 	    //i200: JavaFX
 public class MinuKlass extends Application {
     @Override
-    public void start(Stage primaryStage)  {         //JavaFX algab start(), mitte main()   !!!!!
+    public void start(Stage primaryStage)  {         //JavaFX algab start(), mitte main()   !!!!! ilma static
         primaryStage.setTitle("MinuÄpp");
         primaryStage.show();}
 }
@@ -91,10 +90,10 @@ faceLeft = true;
 		   
 	    //meetodid:
 1) public main() { try....// siis siit hakkab tegevus
-   public Main() { try....// ilmselt ei ole vahet kas suur või väike algustäht
-2) public void start(Stage primaryStage) throws Exception { //JavaFX Stage loob aknakasti väljaku
+   public Main() { try....// ilmselt kas ei ole vahet kas suur või väike algustäht
+2) public void start(Stage primaryStage) throws Exception { //JavaFX Stage loob aknakasti väljaku, ilma static = konstr
         seadistanMiskiAsja();				//mention it, loomine
-3) public static void main(String[] args)    { ... } 
+3) public static void main(String[] args)    { ... } 	//ilma static ei läinud liht-kalk-programm tööle
 4) public static int suvaT2ring() {			//?mis? public static int meetod arvu-genereerimiseks?
         return (int) (Math.random() * 6 + 1);}		//tagastamisel genereerib arvutuse
 
