@@ -5,9 +5,15 @@ MAIN() { ... }
 // PUBLIC - kättesaadav kogu sellesama klassi sees
 //PUBLIC STATIC - kättesaadav ka mujalt klassidest; STATIC tähendab, et meetodi välja kutsumiseks ei pea eraldi Objekti looma?
 // PRIVATE tähendab, et see meetod on kättesaadav ainult siinses 
+//private --- only within same class
+//public --- from anywhere
+//protected -- same class, subclass, and same package
+//no modifier -- same package only
+	 
 	STATIC 		= LIHTSALT TOOL. AN OBJECT. on kättesaadav mujalt klassidest
 	mitte-STATIC 	= KONKREETNE TOOL. THE OBJECT. vanaaegne kiiktool.
-// boolean tähendab, et meetod peab lõpuks return'ima booleani tulemuseks
+
+BOOLEAN tähendab, et meetod peab lõpuks return'ima booleani tulemuseks
 
 TERMINAL BASH: http://ss64.com/bash/	
 UBUNTU https://help.ubuntu.com/community/KeyboardShortcuts
@@ -25,6 +31,19 @@ https://www.jetbrains.com/idea/documentation/
 
 IntelliJ OS X: cmd + N
 Win/Linux: Alt + Insert = generate constructor, toString, Overright methods; coywright
+
+DEBUG Step Over IntelliJ = 2 2 IDE debug 
+https://www.youtube.com/watch?v=2Ju3yuBtop4&index=4&list=PLWkgPad9kpY1Ns3Q23g1qAlE9vQbmpSKn
+Menüüst: Run > Debug > opens "Debugger", "Console" valikud all, kus näha spets ikoon: STEP OVER F8
+(mis aga kipub ära kaduma, kuid kui kasutad Breakpoints punaseid nuppe, siis ilmus...)
+(neid valikuid saab debug-putuk peale klikkides peita)
+	
+	
+	
+	....AGA KAOB AINA ÄRA, too konsooli peal putuka nupp toob tagasi kuid siis jälle asi kadunud
+samuti on  seal menüüs kaks sama faili vaadet..
+paremal nupp Threads review
+
 
 
 ALGUS
