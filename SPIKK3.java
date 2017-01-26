@@ -19,9 +19,12 @@ OOP MAATRIKS
 
  ...throws Exception - vea kontroll funk
  
- EXTENDS
+ EXTENDS class Neo saab fighther omadused, overwright
  
-i200 1-1 Sissejuhatus
-i200 lehekülg, kuidas täiendada; õppetöö on online vormis, eesmärk 3 kuuga nooremprogrameerijaks; oma projekt ja iganädalased ülessanded, õppematerjal ja kommuunikool
+i200 1-1 Sissejuhatus: i200, kuidas täiendada; õppetöö online vorm, eesmärk 3 kuuga nooremprogrameerijaks; oma projekt ja iganädalased ülessanded, õppematerjal ja kommuunikool koodiõppimiseks foorumis
+i200 1-2 Programmeerimisest üldisemalt
+i200 1-3 Git ja Laevade Pommitamise algus: Git vajalikud bash käsud koodi pushimiseks näiteks GitHub kontosse
+i200 2-1 Loogilised operaatorid ja booleanid: BOOLEAN true false IF jaoks, !a NB!HÜÜMÄRK SEE ON BOOLEANITE OMADUS, && (and) || (or)
+https://www.youtube.com/watch?v=gjxBTo37n8M&index=4&list=PLWkgPad9kpY3IWcuywjrCVQgFiF5MhEMp
 
  
