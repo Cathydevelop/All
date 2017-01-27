@@ -15,35 +15,6 @@ MAIN() { ... }
 
 BOOLEAN tähendab, et meetod peab lõpuks return'ima booleani tulemuseks
 
-TERMINAL BASH: http://ss64.com/bash/	
-UBUNTU https://help.ubuntu.com/community/KeyboardShortcuts
-INTELLIJ for all OPs: https://www.jetbrains.com/help/idea/2016.1/keyboard-shortcuts-you-cannot-miss.html
-WINDOWS KEYBOARD: https://support.microsoft.com/en-us/help/12445/windows-keyboard-shortcuts
-VIRTUAL KEYBOARD: http://gate2home.com/English-Keyboard
-
-HOW?
-https://www.jetbrains.com/help/idea/2016.2/tutorial-creating-running-and-packaging-your-first-java-application.html
-
-https://www.jetbrains.com/help/idea/2016.2/javafx.html
-
-IntelliJ Video Tutorials
-https://www.jetbrains.com/idea/documentation/
-
-IntelliJ OS X: cmd + N
-Win/Linux: Alt + Insert = generate constructor, toString, Overright methods; coywright
-
-DEBUG Step Over IntelliJ = 2 2 IDE debug 
-https://www.youtube.com/watch?v=2Ju3yuBtop4&index=4&list=PLWkgPad9kpY1Ns3Q23g1qAlE9vQbmpSKn
-Menüüst: Run > Debug > opens "Debugger", "Console" valikud all, kus näha spets ikoon: STEP OVER F8
-(mis aga kipub ära kaduma, kuid kui kasutad Breakpoints punaseid nuppe, siis ilmus...)
-(neid valikuid saab debug-putuk peale klikkides peita)
-	
-	
-	
-	....AGA KAOB AINA ÄRA, too konsooli peal putuka nupp toob tagasi kuid siis jälle asi kadunud
-samuti on  seal menüüs kaks sama faili vaadet..
-paremal nupp Threads review
-
 
 
 ALGUS
@@ -128,12 +99,8 @@ public class Menu {
         Scene menuContentFrame = new Scene(menuContent, Brawl.fieldLength, Brawl.fieldHeight); // window resizer, holds content
         menuWindow.setScene(menuContentFrame); // sets window resizer into the main menu window
         menuWindow.show(); // displays the window
-...			   
-
-		   
-		   
-	    
-
+...			   				   
+	
 
 ARGS LIST: 
 int	float double long		Math.abs() 
