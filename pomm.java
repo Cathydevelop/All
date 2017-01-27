@@ -1,6 +1,11 @@
 import java.util.Arrays;
 import java.util.Scanner;
 
+   // private tähendab, et see meetod on kättesaadav ainult siit failist.
+    // static tähendab, et meetodi välja kutsumiseks ei pea eraldi Objekti looma.
+    // boolean tähendab, et meetod peab lõpuks return'ima booleani tulemuseks
+    // meetod võtab sisendiks maatriksi - ja me nimetame selle maatriksi "laud" muutujaks.
+
 public class Main {
     public static void main(String args[]) {
         System.out.println("Alustame pommitamisega!");
@@ -61,10 +66,7 @@ public class Main {
 
     }
 
-    // private tähendab, et see meetod on kättesaadav ainult siit failist.
-    // static tähendab, et meetodi välja kutsumiseks ei pea eraldi Objekti looma.
-    // boolean tähendab, et meetod peab lõpuks return'ima booleani tulemuseks
-    // meetod võtab sisendiks maatriksi - ja me nimetame selle maatriksi "laud" muutujaks.
+ 
     private static boolean kasOnMangLabi(int[][] laud) {
         for (int i = 0; i < 9; i++) {
             for (int j = 0; j < 9; j++) {
