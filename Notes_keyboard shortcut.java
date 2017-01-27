@@ -10,14 +10,17 @@ alt: 	⌥ symbol on it OPTION
 cmd: ⌘ representing COMMAND 
 http://www.howtogeek.com/183636/how-the-command-and-option-keys-work-on-a-mac/
 
-⌘ ; :   ~ §   if else && || 
+⌘ ; :   ~ §   if else 
+ &&   and
+ ||   or
+|	vertical bar (the pipe) püstkriips 	Alt+ < on Mac
 { }  looksulud	option + 7 
 [ ]			option + 8
 !	shift + 1 on hüümärk!
 \  	Alt+plus sign (tagurpidi kaldkriips)
 €
 @	Alt+2 commercial at
-|	vertical bar (the pipe) püstkriips 	Alt+<
+
 ‘ single quotes '
 “ double quotes “
 # 	trellid HASH(tag) (pound sign but UK pound sign is £)(musical sign it’s a sharp)
