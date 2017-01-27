@@ -1,5 +1,8 @@
 KEYBOARD shortcuts + ING SÕNAD
 SHIFT (nool üles)+  fn, ctrl, ALT, cmd
+
+ /* advadsv,adsö,v
+    */
 …
 ⇧ represents SHIFT
 ctrl:	 ^ represents CONTROL
