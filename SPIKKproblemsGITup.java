@@ -29,7 +29,7 @@ Host refocusdevelop
 	IdentityFile ~/.ssh/id_rsa2
 2 accounts: FIRST IS MAIN, the second needs specification who is pushing??? git remote add origin git@refocusdevelop:refocusdevelop/ZADANIE.git
 
-	
+		
 	
 BASH MASTER
 cd .....
