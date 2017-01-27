@@ -30,6 +30,9 @@ http://docs.oracle.com/javafx/2/get_started/jfxpub-get_started.htm
 õppimist,
 http://howtodoinjava.com/for-fun-only/best-way-to-learn-java/
 http://java.about.com
+JavaFX HOW TO! https://docs.oracle.com/javase/8/javafx/api/javafx/application/Application.html
+http://docs.oracle.com/javafx/2/get_started/hello_world.htm
+
 
 
 TERMINAL BASH: http://ss64.com/bash/	
