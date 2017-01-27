@@ -1,4 +1,4 @@
-BACH: GIT & GITHUB + UBUNTU
+BACH: GIT & GITHUB + UBUNTU + IntelliJ usage
 UBUNTU https://help.ubuntu.com/community/KeyboardShortcuts
 TERMINAL BASH: http://ss64.com/bash/
 cd				juuretasand
@@ -491,7 +491,69 @@ LINUZ ja MAC ssh on sisseehitatud. Windowsis peab panema sisse aga putty ja putt
 
 
 
+INTELLIJ
+INTELLIJ
 
+
+
+INTELLIJ
+class, method or variable PACKAGE > PUBLIC CLASS > public static void main
+
+?? how to up it to my github = VCS > Checkout…. NB! git SSH lingi jaoks peab olema tehtud võtmepaar
+
+Miks?  
+*SDK not defined
+*Lombok requires annotation process. Settings > build >Compiler ENABLE
+
+Asukoht MacBook: seal on pluginad vist JAR nimelised
+~IdeaProjects/
+Library > Jav	a > JavaVirtualMachines> jdk1.8.0_111.jdk > Contents> New Project> Home
+
+topelt klikk C - viib settingutesse LIB moodulid
+parem klikk C - new java class
+
+SHORTCUTS
+double Shift - search
+⌘ +E recent files
+⌥ F7  = FIND
+⌃J = View read about it 
+⌘F12 = Navigate, ENTER
+⇧F6 = Rename
+RUN: option + shift + fn + f10	
+ctrl + f10 otseteest (Kui oled juba ühe korra käivitanud oma programmi by Krister)
+sout      Type s, press ⌘J and select sout - Prints a string to System.out
+psvm	public status void main
+fori
+automaatne kuvamine = class name and click ⌃Space 
+
+Multiple projects in window opened
+Multiple modules: https://www.youtube.com/watch?v=EEp5hOfD9hc
+
+problems MIGHT:
+Kui täpitähed ei ilmu JavaFXis või konsoolis: File -> Settings -> Editor -> File Encodings -> IDE ja Project Encoding: UTF-8
+
+***Debugimine: STEP OVER (F8) kasutamine reahaaval näitab tulemust
+a) windows: Ctrl + shift + fn + F8 avab akna “breakpoints”, vali + plussiga “Breakpoints”, pane klassi ja meetodi nimi
+b) mac: ⌘ + Shift + F8-ga
+c) aga SAMA ASI on ka Run > View breakpoints
+https://www.youtube.com/watch?v=2Ju3yuBtop4&index=4&list=PLWkgPad9kpY1Ns3Q23g1qAlE9vQbmpSKn
+*sain selle tööle ainult siis, kui RERUN, siis DEBUG sealtsamast alt kastikesest Consolest vasakul. Tulemus Console parel käsud aktiveerusid, sain klikkida reahaaval
+VIDEO, 2-2 IDE DEBUG
+
+***C-kettake (sinine)(SRC/COM alll) klikk avab valiku, kus saab ka RUN valida
+https://www.jetbrains.com/help/idea/2016.2/tutorial-creating-running-and-packaging-your-first-java-application.html
+Go to: src   
+***START: File | New | Project, select: java, next, next, name & finish
+***SRC: “src” doubleclick, File | New | Java Class, give a name as? com.example.test2.test2 - this is for naming PACKAGE > to start with main code CLASS (sinine C kettaga src all)
+NB! .java faili nimi peab olemas sama mis on public class nimi... 
+public class PEAB ALGAMA SUURE TÄHEGA ning olema sama fails nimega
+***EDITOR: start with psvm
+***RUN 
+***JAR? 
+***if all ok. Packaging: File | Project Structure > Artifacts & Build | Build Artifacts. 
+hulk seadinguid:
+OUT folder out/artifacts & JAR run configuration: Run | 
+Edit Configurations. + choose JARtake
 
 
 
