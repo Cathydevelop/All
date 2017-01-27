@@ -100,6 +100,6 @@ Timer timer = new Timer();
 timer.schedule(new TimerTask() {public void run() {sinu toimingud} }, 5000, 1000);  //kogu koodijupp
 
 
-
+Math
 
 
