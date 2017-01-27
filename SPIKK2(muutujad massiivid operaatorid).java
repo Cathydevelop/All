@@ -1,6 +1,4 @@
-i200 KV
-
-Muutujad
+i200 KV summary: Muutujad:
 int a = 5;     double a = 8.76;         //Loo uus
 (int) Math.pow(a, b);                   // a astmes b
 a / b;                                  //jagamine
