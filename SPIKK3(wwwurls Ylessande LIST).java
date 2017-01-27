@@ -53,26 +53,51 @@ DEBUG Step Over IntelliJ = 2 2 IDE debug
 https://www.youtube.com/watch?v=2Ju3yuBtop4&index=4&list=PLWkgPad9kpY1Ns3Q23g1qAlE9vQbmpSKn
 Menüüst: Run > Debug > opens "Debugger", "Console" valikud all, kus näha spets ikoon: STEP OVER F8
 (mis aga kipub ära kaduma, kuid kui kasutad Breakpoints punaseid nuppe, siis ilmus...) (neid valikuid saab debug-putuk peale klikkides peita)
-
-
-
-
-OOP konstruktor klass konstruktor meetod
-OOP Pood-Kassa
-//1. Pood seob end teise klassiga järgnevalt, muu pole tähtis. Omistab kassapidaja sulgudes
-Kassa kassa = new Kassa(kassapidaja);
-//2.1 Kassa nimetab kohe ära objekt-kassapidaja et see oleks meetodist VÄLJAS
-public String kassapidaja;                  //tegelasobjekt
-//2.2 Põhimeetod konstuktor, mille meetodi sisse pannakse sidumiseks: kassapidaja
-public Kassa(String kassapidajaSaabSiinUueNime){kassapidaja = kassapidajaSaabSiinUueNime;}
-
-OOP MAATRIKS
-1. Generate Matrix - start - tüüpiline et genereeri midagi
-2. Output this Matrix - end - siis väljasta
-
- ...throws Exception - vea kontroll funk
  
- EXTENDS class Neo saab fighther omadused, overwright
  
+ 
+ Algoritm
+KuulusNumber -
+MaagilineSeitse - 
+PikadSooned -
+Suusailm -
 
- FINAL LESSONS
+JavaFX 
+Detektiiv - 
+Foorid - 
+Joon - 
+Koristaja - 
+Pixel - 
+Ring - 
+Ristkulik - 
+Tagaajamine - 
+
+maatriks
+Kagunurk - 
+Kikilips - 
+KikilipsKursusega -  ln tekitab lisarea : System.out.println();
+Liivakell - 
+Pyramiid raske
+Sukrist - 
+Tsirkus - 
+
+OOP
+Gitter > Chat -
+Pood > Kassa -
+Kirjanik > Pastakas -
+Raamatukogu > Sonaraamat -
+Pidu > Korter -
+Legend > Zelda -
+
+
+OOP
+Proov > Kasutajaliides OOP 2 klassiga
+String input = textfield.getText(); //.get Krister ka ei mäleta peast
+
+Main > Mata 2 klassiga
+Main > Kassa
+Loomad miski OOP by Jaanus Pöial - 
+
+
+Yl
+Ylessanne1 - boolean if true 
