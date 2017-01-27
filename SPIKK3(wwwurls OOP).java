@@ -1,9 +1,5 @@
-ASK HELP SITES:
-http://stackoverflow.com
-
-
-CODES 
-https://github.com/caveofprogramming/java-beginners.git 
+ASK HELP SITES:   http://stackoverflow.com
+CODES     https://github.com/caveofprogramming/java-beginners.git 
 Java operators
 https://www.tutorialspoint.com/java/java_basic_operators.htm
 https://en.m.wikipedia.org/wiki/List_of_Java_keywords
@@ -34,6 +30,28 @@ http://docs.oracle.com/javafx/2/get_started/jfxpub-get_started.htm
 õppimist,
 http://howtodoinjava.com/for-fun-only/best-way-to-learn-java/
 http://java.about.com
+
+
+TERMINAL BASH: http://ss64.com/bash/	
+UBUNTU https://help.ubuntu.com/community/KeyboardShortcuts
+INTELLIJ for all OPs: https://www.jetbrains.com/help/idea/2016.1/keyboard-shortcuts-you-cannot-miss.html
+WINDOWS KEYBOARD: https://support.microsoft.com/en-us/help/12445/windows-keyboard-shortcuts
+VIRTUAL KEYBOARD: http://gate2home.com/English-Keyboard
+
+HOW Java? https://www.jetbrains.com/help/idea/2016.2/tutorial-creating-running-and-packaging-your-first-java-application.html
+Java FX: https://www.jetbrains.com/help/idea/2016.2/javafx.html
+IntelliJ Video Tutorials    https://www.jetbrains.com/idea/documentation/
+
+IntelliJ OS X: cmd + N   
+Win/Linux: Alt + Insert = generate constructor, toString, Overright methods; coywright
+Ctrl + tühik = toob valikuid
+
+DEBUG Step Over IntelliJ = 2 2 IDE debug 
+https://www.youtube.com/watch?v=2Ju3yuBtop4&index=4&list=PLWkgPad9kpY1Ns3Q23g1qAlE9vQbmpSKn
+Menüüst: Run > Debug > opens "Debugger", "Console" valikud all, kus näha spets ikoon: STEP OVER F8
+(mis aga kipub ära kaduma, kuid kui kasutad Breakpoints punaseid nuppe, siis ilmus...) (neid valikuid saab debug-putuk peale klikkides peita)
+
+
 
 
 OOP konstruktor klass konstruktor meetod
