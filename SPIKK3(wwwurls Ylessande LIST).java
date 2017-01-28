@@ -56,37 +56,46 @@ Menüüst: Run > Debug > opens "Debugger", "Console" valikud all, kus näha spet
  
  
  
- op-lug 
- for (int i : tulemus)
- while
- ArrayList
+
  
  
  
-KuulusNumber - eemalda arv 3 ja millist nr rohkem? fori kui EI ole 3, siis add. , for (int i : tulemus), Collections
-MaagilineSeitse - leia 7 ja korruta 2ga, siis keskmine? 
+***KuulusNumber - eemalda arv 3 ja millist nr rohkem? fori kui EI ole 3, siis add. , for (int i : tulemus), Collections
+***MaagilineSeitse - leia 7 ja korruta 2ga, siis keskmine? 
 int seitseKordaKaks = naide[i]*2; kahekordsedSeitsmed.add(seitseKordaKaks); ... 
    while (l < NIMI.size()) {
             summa = summa + NIMI.get(l);
             l++;
-PikadSooned - mitu sone pikemad? fori sees: naide[i].length();
-Suusailm - kaks massiivi temp-arvutusega?   
+
+***PikadSooned - mitu sone pikemad? fori sees: naide[i].length();
+***Suusailm - kaks massiivi temp-arvutusega?   
  for (int i = 0; i < NIMI.length; i++) {
             if (NIMI[i]>0){posrohkem1++;}
         }
  
-javaFX
+***javaFX
 Detektiiv by MM - kolm nähtamatut ringi värviliseks? circle3.setFill(Color.TRANSPARENT);
-Foorid by Erik - hunnik punaseid ringe roheliseks?  ***Group root = new Group();
-Joon - küsi xy kordinaadid ja joonista joon?
-Koristaja - hunnik ringe, mis puudutades kaovad, all on sõnum?
-Pixel - hunnik ristkülikuid random, klikk muudab 2x väiksemaks, klikk kaotab?
-Ring - küsi xy kordinaadid +raadius ja joonista ring? näitab reaalajas!!!
-Ristkulik - küsi kordinaadid ja tee ristkülik?
-Tagaajamine - ring, hiire puudutus leiab uue askoha?
+    setVisible lahend ka olemas 
+***Foorid by Erik - hunnik punaseid ringe roheliseks?  ***Group root = new Group(); tsip segane... addEventHandler
+      primaryStage.setTitle("Foorid");   //PEALKIRI
+    
+***Joon - küsi xy kordinaadid ja joonista joon?  btn.setOnAction(new EventHandler<ActionEvent>() {
+  HEA: küsib kordinaadid, vajuta nuppu NÜÜD ja alles siis teeb!
+ code == KeyCode.ENTER) {
+                btn.fire();
+ 
+***Koristaja - hunnik ringe, mis puudutades kaovad, all on sõnum?
+***Pixel - hunnik ristkülikuid random, klikk 2x väiksemaks, klikk kaotab? Lihtne! (viga hunnik asemel 3konkreetset)
+
+ ***Ring - küsi xy kordinaadid +raadius ja joonista ring? Näitab reaalajas!!! sama järgmisega:
+ ***Ristkulik - küsi kordinaadid ja tee ristkülik? Näitab reaalajas!!! Lisa: keerlev=slider; Stackpane; RANDOM
+    setPromptText; getText;    NIMI.textProperty().addListener((observable, vanaX, uusX) -> {
+    SUUREPÄRANE JAOTUS TÄNU: borderPane.setBottom(vBox); ning selle sees saab sättida, kus asub mis (slider, küsimine)
+      
+***Tagaajamine - ring, hiire puudutus leiab uue askoha? Math.random uus lihtsalt
 
      
-    MATRIX
+***MATRIX
 Kagunurk - maatriks muster numbritega, veeru ja rea indeksi seos leida
 Kikilips - maatriks muster nullpunktidega? 2 tsükklit i + j,       IF (), millele järgneb {sout 1 else 2}
 KikilipsKursusega -  ln tekitab lisarea : System.out.println();
@@ -95,7 +104,7 @@ Tsirkus - numbrid ühest sajani?
  
  
     
-OOP
+***OOP
 Gitter > Chat - a) prindib koos ütlejatega sõnumeid, b) kustutab ühe?
 Pood > Kassa -
 Kirjanik > Pastakas - a) pastaks kirjutan lause, b) iga täht on ühik?
