@@ -46,6 +46,8 @@ a.add("Sõne");
 a.add(54);
 a.add(87.90);
 System.out.println("a = " + a);
+        
+        
 //Loo uus
 ArrayList a = new ArrayList();
 ArrayList<String> a = new ArrayList();
@@ -53,6 +55,8 @@ ArrayList<Integer> a = new ArrayList();
 //Kasutamine
 a.get(i)     //mis seal on
 a.set(i, b)  //asenda
+        
+        
 ***HashMap = Hoiab <võti, väärtus> andmeid; Siin ei ole indekseid ehk ei ole ka võtmete järjekorda võimalik määrata
 ...Nagu massiividel on Arrays abiks, on ArrayListil, HashMapil ja muudel Collectionitel ka oma abistav klass
 
@@ -103,28 +107,16 @@ timer.schedule(new TimerTask() {public void run() {sinu toimingud} }, 5000, 1000
  
  EXTENDS class Neo saab fighther omadused, overwright
          
-         
-        
-        OOP
+     
 
-
-OOP konstruktor klass konstruktor meetod
-OOP Pood-Kassa
-//1. MAIN Pood seob end teise klassiga järgnevalt, muu pole tähtis. Omistab kassapidaja sulgudes
-Kassa kassa = new Kassa(kassapidaja);
-//2.1 Kassa nimetab kohe ära objekt-kassapidaja et see oleks meetodist VÄLJAS
-public String kassapidaja;                  //tegelasobjekt sulgudes
-//2.2 Põhimeetod konstuktor, mille meetodi sisse pannakse sidumiseks: kassapidaja
-public Kassa(String kassapidajaSaabSiinUueNime){kassapidaja = kassapidajaSaabSiinUueNime;}
-
-OOP MAATRIKS
+OOP doing:
 1. Generate Matrix - start - tüüpiline et genereeri midagi
 2. Output this Matrix - end - siis väljasta
 
  FINAL DAY
          //import java.awt.*;   EI TOHI
          
- OOP
-
+ARRAYLIST
+        Pusis seal ise ka kuidas ArrayListist Srting Arrayd teha
 
 
