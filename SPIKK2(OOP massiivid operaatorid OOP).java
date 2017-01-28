@@ -99,16 +99,21 @@ Timer  =>
 Timer timer = new Timer();
 timer.schedule(new TimerTask() {public void run() {sinu toimingud} }, 5000, 1000);  //kogu koodijupp
 
+         ...throws Exception - vea kontroll funk
+ 
+ EXTENDS class Neo saab fighther omadused, overwright
+         
+         
         
         OOP
 
 
 OOP konstruktor klass konstruktor meetod
 OOP Pood-Kassa
-//1. Pood seob end teise klassiga järgnevalt, muu pole tähtis. Omistab kassapidaja sulgudes
+//1. MAIN Pood seob end teise klassiga järgnevalt, muu pole tähtis. Omistab kassapidaja sulgudes
 Kassa kassa = new Kassa(kassapidaja);
 //2.1 Kassa nimetab kohe ära objekt-kassapidaja et see oleks meetodist VÄLJAS
-public String kassapidaja;                  //tegelasobjekt
+public String kassapidaja;                  //tegelasobjekt sulgudes
 //2.2 Põhimeetod konstuktor, mille meetodi sisse pannakse sidumiseks: kassapidaja
 public Kassa(String kassapidajaSaabSiinUueNime){kassapidaja = kassapidajaSaabSiinUueNime;}
 
@@ -116,11 +121,10 @@ OOP MAATRIKS
 1. Generate Matrix - start - tüüpiline et genereeri midagi
 2. Output this Matrix - end - siis väljasta
 
- ...throws Exception - vea kontroll funk
- 
- EXTENDS class Neo saab fighther omadused, overwright
- 
+ FINAL DAY
+         //import java.awt.*;   EI TOHI
+         
+ OOP
 
- FINAL LESSONS
 
 
