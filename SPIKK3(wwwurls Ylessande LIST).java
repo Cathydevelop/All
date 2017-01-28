@@ -106,20 +106,35 @@ Tsirkus - numbrid ühest sajani?
     
 ***OOP
 Gitter > Chat - a) prindib koos ütlejatega sõnumeid, b) kustutab ühe?
-Pood > Kassa -
+Pood > Kassa - eemaldab ja lisab ja prindib nimekirja: 
 Kirjanik > Pastakas - a) pastaks kirjutan lause, b) iga täht on ühik?
-Raamatukogu > Sonaraamat - leiab sõna vasted, eemaldab?
-Pidu > Korter - Maja max on 10 inimest, kui inimese arv täis, rohkem juurde ei saa?
+
+***Raamatukogu > Sonaraamat - leiab sõna vasted, eemaldab? 
+ ArrayList<String> tsekk = new ArrayList();   
+ SELLEKS:     for (int i = 0; i < tsekk.size(); i++) {
+            if (toode == tsekk.get(i))
+                tsekk.remove(i);
+        }
+     
+***Pidu > Korter - Maja max on 10 inimest, kui inimese arv täis, rohkem juurde ei saa?
 Legend > Zelda - Zelda miinus kollielud? 
  
 OOP
-Proov(tunnis) > Kasutajaliides OOP, setOnAction event, 
+***Proov(tunnis) > Kasutajaliides OOP, setOnAction event, 
 String input = textfield.getText(); //.get Krister ka ei mäleta peast
 
   
-Main > Mata 2 klassiga
-Main > Kassa
-Loomad miski OOP by Jaanus Pöial - 
+***Main > Mata 2 klassiga, kus public-static-double koos foriga returnib tulmuse, kõik ühes paragrahvis:
+       public static double astendamisTEHE(int arvA, int astendajaB) {
+        int kordaja = arvA; //et matemaatika toimiks salvestame esialgse numbri siia ära
+        for (int i = 0; i < astendajaB -1; i++) {  //-1 on vaja lisada matemaatika pärast, -1 on sest a*a muutub suuremaks ju.
+            arvA = arvA * kordaja;
+        }
+        return arvA;
+    }
+     
+
+***Loomad miski OOP by Jaanus Pöial - 
 
 
 Yl
