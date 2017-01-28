@@ -56,44 +56,58 @@ Menüüst: Run > Debug > opens "Debugger", "Console" valikud all, kus näha spet
  
  
  
- Algoritm
-KuulusNumber -
-MaagilineSeitse - 
-PikadSooned -
-Suusailm -
+ op-lug 
+ for (int i : tulemus)
+ while
+ ArrayList
+ 
+ 
+ 
+KuulusNumber - eemalda arv 3 ja millist nr rohkem? fori kui EI ole 3, siis add. , for (int i : tulemus), Collections
+MaagilineSeitse - leia 7 ja korruta 2ga, siis keskmine? 
+int seitseKordaKaks = naide[i]*2; kahekordsedSeitsmed.add(seitseKordaKaks); ... 
+   while (l < NIMI.size()) {
+            summa = summa + NIMI.get(l);
+            l++;
+PikadSooned - mitu sone pikemad? fori sees: naide[i].length();
+Suusailm - kaks massiivi temp-arvutusega?   
+ for (int i = 0; i < NIMI.length; i++) {
+            if (NIMI[i]>0){posrohkem1++;}
+        }
+ 
+javaFX
+Detektiiv by MM - kolm nähtamatut ringi värviliseks? circle3.setFill(Color.TRANSPARENT);
+Foorid by Erik - hunnik punaseid ringe roheliseks?  ***Group root = new Group();
+Joon - küsi xy kordinaadid ja joonista joon?
+Koristaja - hunnik ringe, mis puudutades kaovad, all on sõnum?
+Pixel - hunnik ristkülikuid random, klikk muudab 2x väiksemaks, klikk kaotab?
+Ring - küsi xy kordinaadid +raadius ja joonista ring? näitab reaalajas!!!
+Ristkulik - küsi kordinaadid ja tee ristkülik?
+Tagaajamine - ring, hiire puudutus leiab uue askoha?
 
-JavaFX 
-Detektiiv - 
-Foorid - 
-Joon - 
-Koristaja - 
-Pixel - 
-Ring - 
-Ristkulik - 
-Tagaajamine - 
-
-maatriks
-Kagunurk - 
-Kikilips - 
+     
+    MATRIX
+Kagunurk - maatriks muster numbritega, veeru ja rea indeksi seos leida
+Kikilips - maatriks muster nullpunktidega? 2 tsükklit i + j,       IF (), millele järgneb {sout 1 else 2}
 KikilipsKursusega -  ln tekitab lisarea : System.out.println();
-Liivakell - 
-Pyramiid raske
-Sukrist - 
-Tsirkus - 
-
+Pyramiid raske - Nüüd paneme loode ja kagu nurga kokku ja loome pealtvaates püramiidi?
+Tsirkus - numbrid ühest sajani?
+ 
+ 
+    
 OOP
-Gitter > Chat -
+Gitter > Chat - a) prindib koos ütlejatega sõnumeid, b) kustutab ühe?
 Pood > Kassa -
-Kirjanik > Pastakas -
-Raamatukogu > Sonaraamat -
-Pidu > Korter -
-Legend > Zelda -
-
-
+Kirjanik > Pastakas - a) pastaks kirjutan lause, b) iga täht on ühik?
+Raamatukogu > Sonaraamat - leiab sõna vasted, eemaldab?
+Pidu > Korter - Maja max on 10 inimest, kui inimese arv täis, rohkem juurde ei saa?
+Legend > Zelda - Zelda miinus kollielud? 
+ 
 OOP
-Proov > Kasutajaliides OOP 2 klassiga
+Proov(tunnis) > Kasutajaliides OOP, setOnAction event, 
 String input = textfield.getText(); //.get Krister ka ei mäleta peast
 
+  
 Main > Mata 2 klassiga
 Main > Kassa
 Loomad miski OOP by Jaanus Pöial - 
