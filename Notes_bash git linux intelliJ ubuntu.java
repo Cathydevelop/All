@@ -556,6 +556,45 @@ OUT folder out/artifacts & JAR run configuration: Run |
 Edit Configurations. + choose JARtake
 
 
+UBUNTU-WIN
+
+UBUNTU
+Shift - toob kätte ülemised käsud
+AltGr - toob kätte ülemised paremad
+
+https://www.jetbrains.com/help/idea/2016.3/keyboard-shortcuts-you-cannot-miss.html
+
+Find action by name	Ctrl+Shift+A
+Show the list of available intention actions .	Alt+Enter
+Switch between views (Project,Structure, etc.).	Alt+F1
+Switch between the tool windows and files opened in the editor. 	Ctrl+Tab
+Show the Navigation bar.	Alt+Home
+Insert a live template.	Ctrl+J
+Surround with a live template.	Ctrl+Alt+J
+Edit an item from the Project or another tree view.	F4
+Comment or uncomment a line or fragment of code with the line or block comment.	Ctrl+Slash
+Ctrl+Shift+Slash
+Find class or file by name.	Ctrl+N
+Ctrl+Shift+N
+Duplicate the current line or selection.	Ctrl+D
+Incremental expression selection.	Ctrl+W and Ctrl+Shift+W
+Find/replace text string in the current file.	Ctrl+F
+Ctrl+R
+Find/replace text in the project or in the specified directory	Ctrl+Shift+F
+Ctrl+Shift+R
+
+
+
+
+
+
+
+.
+
+.
+
+.
+
 
 
 
