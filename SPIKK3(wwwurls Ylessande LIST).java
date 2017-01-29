@@ -76,8 +76,9 @@ int seitseKordaKaks = naide[i]*2; kahekordsedSeitsmed.add(seitseKordaKaks); ...
 ***javaFX
 Detektiiv by MM - kolm nähtamatut ringi värviliseks? circle3.setFill(Color.TRANSPARENT);
     setVisible lahend ka olemas 
-***Foorid by Erik - hunnik punaseid ringe roheliseks?  ***Group root = new Group(); tsip segane... addEventHandler
-      primaryStage.setTitle("Foorid");   //PEALKIRI
+***Foorid - hunnik punaseid ringe roheliseks?  
+     Liis: ArrayList<Circle> uusRing = new ArrayList<>();   2 fori tsüklit tekitavad ringe ja värvivad
+     Erik: Group root = new Group(); tsip segane... addEventHandler   1 fori tsükkel; .setTitle("Foorid");//PEALKIRI; 
     
 ***Joon - küsi xy kordinaadid ja joonista joon?  btn.setOnAction(new EventHandler<ActionEvent>() {
   HEA: küsib kordinaadid, vajuta nuppu NÜÜD ja alles siis teeb!
@@ -85,9 +86,9 @@ Detektiiv by MM - kolm nähtamatut ringi värviliseks? circle3.setFill(Color.TRA
                 btn.fire();
  
 ***Koristaja - hunnik ringe, mis puudutades kaovad, all on sõnum?
-***Pixel - hunnik ristkülikuid random, klikk 2x väiksemaks, klikk kaotab? Lihtne! (viga hunnik asemel 3konkreetset)
+***Pixel - hunnik ristkülikuid random, klikk 2x väiksemaks, klikk kaotab? Lihtne! 2 lahendust, ühes hunnik kaste!
 
- ***Ring - küsi xy kordinaadid +raadius ja joonista ring? Näitab reaalajas!!! sama järgmisega:
+ ***Ring - küsi xy kordinaadid +raadius ja joonista ring? Näitab reaalajas nagu ristkülik! Teine VARIANT ka, pärats NUPP vajutust joonistab soovitud ringi
  ***Ristkulik - küsi kordinaadid ja tee ristkülik? Näitab reaalajas!!! Lisa: keerlev=slider; Stackpane; RANDOM
     setPromptText; getText;    NIMI.textProperty().addListener((observable, vanaX, uusX) -> {
     SUUREPÄRANE JAOTUS TÄNU: borderPane.setBottom(vBox); ning selle sees saab sättida, kus asub mis (slider, küsimine)
@@ -113,8 +114,7 @@ Kirjanik > Pastakas - a) pastaks kirjutan lause, b) iga täht on ühik?
  ArrayList<String> tsekk = new ArrayList();   
  SELLEKS:     for (int i = 0; i < tsekk.size(); i++) {
             if (toode == tsekk.get(i))
-                tsekk.remove(i);
-        }
+                tsekk.remove(i); }
      
 ***Pidu > Korter - Maja max on 10 inimest, kui inimese arv täis, rohkem juurde ei saa?
 Legend > Zelda - Zelda miinus kollielud? 
