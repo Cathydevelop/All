@@ -1,6 +1,8 @@
 KEYBOARD shortcuts + ING SÕNAD
 SHIFT (nool üles)+  fn, ctrl, ALT, cmd
 
+
+git@eksam.koodikool.ee:tudeng/KNgJtw29zvLMSDjmp.git
  /* advadsv,adsö,v
     */
 …
