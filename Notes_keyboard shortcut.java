@@ -3,6 +3,11 @@ SHIFT (nool üles)+  fn, ctrl, ALT, cmd
 
 
 git@eksam.koodikool.ee:tudeng/KNgJtw29zvLMSDjmp.git
+
+http://stackoverflow.com/questions/14344832/what-to-do-after-cloning-repo-from-git
+
+
+
  /* advadsv,adsö,v
     */
 …
