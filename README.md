@@ -125,33 +125,31 @@ public class LisamineKlass extends Main{
 
 package Template_Tudeng;
 import java.util.ArrayList;
-public class Funktsioonid{     //miks siin ei võiks ola nagu Liisil extends Main, mis see siis muudaks?
-    // Nii. Siia teeme funktsioonid. Arraylistid
+public class Funktsioonid{    
+    // Nii. Siia funktsioonid. Arraylistid
     ArrayList<String> annanimiKOIK = new ArrayList<>();
     ArrayList<Integer> annanumberKOIK = new ArrayList<>();
-
 
     public void lisamine(String str, Integer zip){      //NB! Pärast sulgudesse sisu lisamist muutus kohe viga ok
         annanimiKOIK.add(str);
         annanumberKOIK.add(zip);
 
-                //jeeeeeeeeee, äddisin nad siia kõhtu peitus, arraylistid!!!!!
-                //kui siiamaani arendus jättes ta ei näita ei kuskil, et neid lisataks
+                //äddisin nad siia kõhtu
     }
 
-    //siia peaks järgnema fori mõlemale
+    //siia fori mõlemale
 
     public void suurimNumber(){
 
         int score = 0;
         String name = "";
-        for (int i = 0; i < studentScores.size(); i++) {
-            if (studentScores.get(i) > score) {
-                score = studentScores.get(i);
-                name = studentNames.get(i);
+        for (int i = 0; i < annanumberKOIK.size(); i++) {
+            if (annanumberKOIK.get(i) > score) {
+                mis = annanumberKOIK.get(i);
+                kes = annanimiKOIK.get(i);
             }
         }
-        System.out.println("Best score was " +score+ " points by " +name);
+        System.out.println("Parim tulemus " + mis + "punkti sai: " + kes);
     }
 
 }
