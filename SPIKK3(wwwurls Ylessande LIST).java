@@ -97,12 +97,12 @@ Detektiiv by MM - kolm nähtamatut ringi värviliseks? circle3.setFill(Color.TRA
 
      
 ***MATRIX
-Kagunurk - maatriks muster numbritega, veeru ja rea indeksi seos leida
+Kagunurk - maatriks muster numbritega, veeru ja rea indeksi seos leida  , topelt foridega
 Kikilips - maatriks muster nullpunktidega? 2 tsükklit i + j,       IF (), millele järgneb {sout 1 else 2}
 KikilipsKursusega -  ln tekitab lisarea : System.out.println();
 Pyramiid raske - Nüüd paneme loode ja kagu nurga kokku ja loome pealtvaates püramiidi?
 Tsirkus - numbrid ühest sajani?
- 
+ ***i200: Hashmap Arraylist => Kümme võistlejat, kel random sporditulemused? fori i, fori j, salvestab ja prindib
  
     
 ***OOP
@@ -119,23 +119,25 @@ Kirjanik > Pastakas - a) pastaks kirjutan lause, b) iga täht on ühik?
 ***Pidu > Korter - Maja max on 10 inimest, kui inimese arv täis, rohkem juurde ei saa?
 Legend > Zelda - Zelda miinus kollielud? 
  
-OOP
-***Proov(tunnis) > Kasutajaliides OOP, setOnAction event, 
+
+***OOP. Proov(tunnis) > Kasutajaliides OOP, setOnAction event, 
 String input = textfield.getText(); //.get Krister ka ei mäleta peast
 
   
-***Main > Mata 2 klassiga, kus public-static-double koos foriga returnib tulmuse, kõik ühes paragrahvis:
+***OOP. Main > Mata 2 klassiga, kus public-static-double koos foriga returnib tulmuse, kõik ühes paragrahvis:
        public static double astendamisTEHE(int arvA, int astendajaB) {
         int kordaja = arvA; //et matemaatika toimiks salvestame esialgse numbri siia ära
         for (int i = 0; i < astendajaB -1; i++) {  //-1 on vaja lisada matemaatika pärast, -1 on sest a*a muutub suuremaks ju.
             arvA = arvA * kordaja;
         }
-        return arvA;
-    }
+        return arvA;}
      
 
-***Loomad miski OOP by Jaanus Pöial - 
-
-
-Yl
-Ylessanne1 - boolean if true 
+***Loomad miski OOP by Jaanus Pöial
+ 
+***i200: Hashmap Arraylist => Kümme võistlejat, kel random sporditulemused - fori i, fori j, salvestab ja prindib
+ 
+ 
+ 
+ 
+ 
