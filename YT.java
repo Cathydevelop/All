@@ -28,3 +28,6 @@ public vs private, protected
 miks me ei pea siis kassat importima, sest ta on main fail kõrval, siis ei pea
 5-5 Projekti struktuur
 MVC Model View Controller
+
+
+Muuda tüüpi KOMADES  int c = (int) a;
