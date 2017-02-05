@@ -194,11 +194,13 @@ TEXT in BOLD
         }
 		
 		
-EXTENDS
+//using EXTENDS
 public class Neo extends Fighter {
 public Neo () { // this is neo, ta erineb teistest, siia kirjutatakse tema erioamdused. 
 	//Tal on KÕIK mis on olemas "Fighter" klassis
     }
 }
 		
-The '\0' represents nothing in ASCII code.
+The '\0' represents nothing in ASCII code
+	
+
