@@ -2,21 +2,9 @@
 arendus laevadepommitamine
 
 
-# NÖTES
-class ja põhimeetod!
+# NÖTES JAMA: 
+-  for (int i = 0; i < tulemused.size(); i++) {         aga piisab   for (int i = 0; i < 10; i++) {
 
- int [] faketulemused = [23, 45, 67, 78, 99];   aga kasutatakse {...} vahel
- 
-  for (int i = 0; i < tulemused.size(); i++) {
-  aga piisab
-  for (int i = 0; i < 10; i++) {
-  
-  ArrayList<String>ajutine = new ArrayList<>(tulemused);     <> vahele String
-  
- public void lisamine(String s, Integer z){      //NB! Pärast sulgudesse sisu lisamist muutus kohe viga ok
- 
- 
- 
  
  
  #  VEAD
@@ -26,6 +14,7 @@ class ja põhimeetod!
 - kasutasin komasid, aga plussid +
                                               teemalisamine.setText("OKKK: " + ttt + arv);
 - massiivi väärtused sulgudesse :)
+- public void lisamine(String s, Integer z){      //NB! Pärast sulgudesse sisu lisamist muutus kohe viga ok
 
 
  # KÜSIDA     
