@@ -31,3 +31,27 @@ MVC Model View Controller
 
 
 Muuda tüüpi KOMADES  int c = (int) a;
+
+
+
+
+
+
+....
+ MART MANGUS 2017 veebruar 11:
+ ***kui sul on github olemasolev repo, milles on info, mis vaja: pull, siis uue info push keeruline, 
+sest ta hakkab vigisema konfliktide yle ehk ei taha olemasolevat yle kirjutada
+
+ my DATA
+http://enos.itcollege.ee/~krist/   MINU KODULEHT
+https://github.com/kristdevelop/koduleht  - ..... siin pean looma uue repo parem vist
+JUHENDID
+http://enos.itcollege.ee/~mamangus/i244/praktikum1/
+http://php.net/manual/en/function.phpversion.php
+https://moodle.hitsa.ee/mod/page/view.php?id=430425
+
+
+***DIARY: mysql lõin omale endanimelise tabeli: db=test&table=UserKRIST
+http://enos.itcollege.ee/phpmyadmin/index.php?db=test&table=UserKRIST&target=sql.php&token=c15755abd56d1ea84b6fe4b888a0a038#PMAURL-1:sql.php?db=test&table=UserKRIST&server=1&target=&token=c15755abd56d1ea84b6fe4b888a0a038
+
+***VALIDATOR ütleb, kopeeri link, kus on sinu veebilehekoodis VEAD: https://validator.w3.org/nu/?doc=http%3A%2F%2Fenos.itcollege.ee%2F~krist%2F
