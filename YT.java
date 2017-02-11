@@ -62,3 +62,15 @@ http://enos.itcollege.ee/phpmyadmin/index.php?db=test&table=UserKRIST&target=sql
 <!-- kuidas pookida juurde mõne lehe allosa -->
 ***css asubki mu koolikodukas kus public_html:
  <link href="kujundus.css" rel="stylesheet" type="text/css">
+ 
+***CASE THAT I COULD NOT UPLOAD DATA TO NEW EMPRTY REPO:
+A) Kõigepeal ma läksin sisse uude kloontid reposse
+HE CHECKED: GIT LOG
+  krist@klass2-06-l:~/Documents/public_html/koduleht2$ git log
+fatal: your current branch 'master' does not have any commits yet
+IT SHOWED THAT FILES WERE RED
+NOT COMMITED
+B) GIT ADD, GIT COMMIT -M
+ 
+
+
