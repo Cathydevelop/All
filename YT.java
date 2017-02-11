@@ -49,7 +49,7 @@ JUHENDID
 http://enos.itcollege.ee/~mamangus/i244/praktikum1/
 http://php.net/manual/en/function.phpversion.php
 https://moodle.hitsa.ee/mod/page/view.php?id=430425
-
+https://en.wikipedia.org/wiki/Cascading_Style_Sheets
 
 ***DIARY: mysql lõin omale endanimelise tabeli: db=test&table=UserKRIST
 http://enos.itcollege.ee/phpmyadmin/index.php?db=test&table=UserKRIST&target=sql.php&token=c15755abd56d1ea84b6fe4b888a0a038#PMAURL-1:sql.php?db=test&table=UserKRIST&server=1&target=&token=c15755abd56d1ea84b6fe4b888a0a038
