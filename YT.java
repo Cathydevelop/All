@@ -89,6 +89,7 @@ http://cubier.bezier.com/cgi-sys/defaultwebpage.cgi
 FONDID https://fonts.google.com/
 SLIDE SHOW, vaata examples, http://www.slidesjs.com/
 good websources: https://tympanus.net/codrops/2010/
+USEFUL NB: https://modernizr.com/download?setclasses
 
 vt.
 http://enos.itcollege.ee/~krist/Lingulo-Responsive-Tutorial-master/lightbox/js/lightbox.js
