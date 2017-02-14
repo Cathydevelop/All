@@ -34,7 +34,9 @@ Muuda tüüpi KOMADES  int c = (int) a;
 
 
 
-
+kommenmteerida välja
+/* KEYFRAMES */
+<!--This !-->
 
 
 ....
@@ -77,12 +79,19 @@ B) GIT ADD, GIT COMMIT -M
 ....
 VEEB ERIKA 2017 veebruar 14:
 soft Crimson 
-http://matsak.ee/rakendused/praktikum3/img/
-http://enos.itcollege.ee/~ematsak/rakendused/javascript1_c/
+http://matsak.ee/rakendused/praktikum3/img/        //LAE ALLA
+http://enos.itcollege.ee/~ematsak/rakendused/javascript1_c/   //LAE ALLA
 view-source:http://enos.itcollege.ee/~ematsak/rakendused/javascript1_c/
 http://www.lingulo.com/tutorials/css/css3-transitions
+DESIGN
+http://lokeshdhakar.com/projects/lightbox2/
+http://cubier.bezier.com/cgi-sys/defaultwebpage.cgi
+VATASIME
+http://enos.itcollege.ee/~krist/Lingulo-Responsive-Tutorial-master/lightbox/js/lightbox.js
 
-
+kommenmteerida välja
+/* KEYFRAMES */
+<!--This !-->
  
-
+ 
 
