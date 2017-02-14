@@ -53,7 +53,6 @@ https://moodle.hitsa.ee/mod/page/view.php?id=430425
 HOW TO
 https://en.wikipedia.org/wiki/Cascading_Style_Sheets
 
-
 ***DIARY: mysql lõin omale endanimelise tabeli: db=test&table=UserKRIST
 http://enos.itcollege.ee/phpmyadmin/index.php?db=test&table=UserKRIST&target=sql.php&token=c15755abd56d1ea84b6fe4b888a0a038#PMAURL-1:sql.php?db=test&table=UserKRIST&server=1&target=&token=c15755abd56d1ea84b6fe4b888a0a038
 
@@ -71,6 +70,19 @@ fatal: your current branch 'master' does not have any commits yet
 IT SHOWED THAT FILES WERE RED
 NOT COMMITED
 B) GIT ADD, GIT COMMIT -M
+
+
+
+
+....
+VEEB ERIKA 2017 veebruar 14:
+soft Crimson 
+http://matsak.ee/rakendused/praktikum3/img/
+http://enos.itcollege.ee/~ematsak/rakendused/javascript1_c/
+view-source:http://enos.itcollege.ee/~ematsak/rakendused/javascript1_c/
+http://www.lingulo.com/tutorials/css/css3-transitions
+
+
  
 
 
