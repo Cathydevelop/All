@@ -86,12 +86,18 @@ http://www.lingulo.com/tutorials/css/css3-transitions
 DESIGN
 http://lokeshdhakar.com/projects/lightbox2/
 http://cubier.bezier.com/cgi-sys/defaultwebpage.cgi
-VATASIME
+FONDID https://fonts.google.com/
+SLIDE SHOW, vaata examples, http://www.slidesjs.com/
+good websources: https://tympanus.net/codrops/2010/
+
+vt.
 http://enos.itcollege.ee/~krist/Lingulo-Responsive-Tutorial-master/lightbox/js/lightbox.js
 
 kommenmteerida välja
 /* KEYFRAMES */
 <!--This !-->
+ 
+ 
  
  
 
