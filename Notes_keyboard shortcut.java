@@ -84,4 +84,24 @@ Cloning into 'KNgJtw29zvLMSDjmp'...
 git@eksam.koodikool.ee's password: 
 Permission denied, please try again.
 git@eksam.koodikool.ee's password: 
+ 
+ 
+ 
+ TÄNANE TUND PYTHON
+ https://github.com/evrom/prelude
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
