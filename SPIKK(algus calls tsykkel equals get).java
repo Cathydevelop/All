@@ -14,6 +14,7 @@ MAIN() { ... }
 	mitte-STATIC 	= KONKREETNE TOOL. THE OBJECT. vanaaegne kiiktool.
 
 BOOLEAN tähendab, et meetod peab lõpuks return'ima booleani tulemuseks
+BOOLEAN omadus: väärtuste vastand: a != TRUE 
 
 
 
@@ -28,6 +29,11 @@ public static void peamine(String args[]) {		//meetod nimega "peamine"
 for(int nr=0; nr<10; nr++) {				//tsükkel
 System.out.println("Vastus: " + nr);}}
 }
+
+
+# Näide algusest
+  public void teemalisamine(String tTEEMA){
+    }
 
 //JavaFX STANDARD
 public class Main extends Application {
