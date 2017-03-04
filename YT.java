@@ -1,5 +1,4 @@
-YT once to learn, IntelliJ tricks: https://www.youtube.com/watch?v=eq3KiAH4IBI
-
+KVV
 
 i200 1-1 Sissejuhatus: i200, kuidas täiendada; õppetöö online vorm, eesmärk 3 kuuga nooremprogrameerijaks; oma projekt ja iganädalased ülessanded, õppematerjal ja kommuunikool koodiõppimiseks foorumis
 i200 1-2 Programmeerimisest üldisemalt
@@ -29,74 +28,7 @@ miks me ei pea siis kassat importima, sest ta on main fail kõrval, siis ei pea
 5-5 Projekti struktuur
 MVC Model View Controller
 
-
 Muuda tüüpi KOMADES  int c = (int) a;
-
-
-
-kommenmteerida välja
-/* KEYFRAMES */
-<!--This !-->
-
-
-....
- MART MANGUS 2017 veebruar 11:
- ***kui sul on github olemasolev repo, milles on info, mis vaja: pull, siis uue info push keeruline, 
-sest ta hakkab vigisema konfliktide yle ehk ei taha olemasolevat yle kirjutada
-
- my DATA
-http://enos.itcollege.ee/~krist/   MINU KODULEHT
-view-source:http://enos.itcollege.ee/~krist/
-https://github.com/kristdevelop/koduleht  - ..... siin pean looma uue repo parem vist
-JUHENDID
-http://enos.itcollege.ee/~mamangus/i244/praktikum1/
-http://php.net/manual/en/function.phpversion.php
-https://moodle.hitsa.ee/mod/page/view.php?id=430425
-HOW TO
-https://en.wikipedia.org/wiki/Cascading_Style_Sheets
-
-***DIARY: mysql lõin omale endanimelise tabeli: db=test&table=UserKRIST
-http://enos.itcollege.ee/phpmyadmin/index.php?db=test&table=UserKRIST&target=sql.php&token=c15755abd56d1ea84b6fe4b888a0a038#PMAURL-1:sql.php?db=test&table=UserKRIST&server=1&target=&token=c15755abd56d1ea84b6fe4b888a0a038
-
-***VALIDATOR, kopeeri link, kus on sinu veebilehekoodis VEAD: https://validator.w3.org/nu/?doc=http%3A%2F%2Fenos.itcollege.ee%2F~krist%2F
-***nii toimib väljakommittimine
-<!-- kuidas pookida juurde mõne lehe allosa -->
-***css asubki mu koolikodukas kus public_html:
- <link href="kujundus.css" rel="stylesheet" type="text/css">
- 
-***CASE THAT I COULD NOT UPLOAD DATA TO NEW EMPRTY REPO:
-A) Kõigepeal ma läksin sisse uude kloontid reposse
-HE CHECKED: GIT LOG
-  krist@klass2-06-l:~/Documents/public_html/koduleht2$ git log
-fatal: your current branch 'master' does not have any commits yet
-IT SHOWED THAT FILES WERE RED
-NOT COMMITED
-B) GIT ADD, GIT COMMIT -M
-
-
-
-
-....
-VEEB ERIKA 2017 veebruar 14:
-soft Crimson 
-http://matsak.ee/rakendused/praktikum3/img/        //LAE ALLA
-http://enos.itcollege.ee/~ematsak/rakendused/javascript1_c/   //LAE ALLA
-view-source:http://enos.itcollege.ee/~ematsak/rakendused/javascript1_c/
-http://www.lingulo.com/tutorials/css/css3-transitions
-DESIGN
-http://lokeshdhakar.com/projects/lightbox2/
-http://cubier.bezier.com/cgi-sys/defaultwebpage.cgi
-FONDID https://fonts.google.com/
-SLIDE SHOW, vaata examples, http://www.slidesjs.com/
-good websources: https://tympanus.net/codrops/2010/
-USEFUL NB: https://modernizr.com/download?setclasses
-
-vt.
-http://enos.itcollege.ee/~krist/Lingulo-Responsive-Tutorial-master/lightbox/js/lightbox.js
-
-kommenmteerida välja
-/* KEYFRAMES */
-<!--This !-->
  
  
  
