@@ -6,10 +6,11 @@ git@eksam.koodikool.ee:tudeng/KNgJtw29zvLMSDjmp.git
 
 http://stackoverflow.com/questions/14344832/what-to-do-after-cloning-repo-from-git
 
-
-
- /* advadsv,adsö,v
-    */
+kommenmteerida välja
+/* KEYFRAMES */
+<!--This !-->
+ 
+ 
 …
 ⇧ represents SHIFT
 ctrl:	 ^ represents CONTROL
@@ -86,9 +87,6 @@ Permission denied, please try again.
 git@eksam.koodikool.ee's password: 
  
  
- 
- TÄNANE TUND PYTHON
- https://github.com/evrom/prelude
  
 
 
