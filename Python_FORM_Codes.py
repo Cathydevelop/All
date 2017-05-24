@@ -2,6 +2,9 @@
 for i in range(10):
     print(i)
     
+#TULEMUSEKS loetleb tähehaaval mis palutud
+for i in "Hello":
+    print(i)nc
     
 
 # KAS NUMBER ON PAARIS PAARITU
@@ -18,6 +21,18 @@ elif my_number == 1:
     print("is 1")
 else:
     print("odd")
+
+# KAS NUMBER ON PAARIS PAARITU Töötab kenasti, kas number on aaritu või paaris:
+my_number = 9
+def is_even(n):
+    if my_number % 2 == 0:
+        return True
+    else:
+        return False
+if is_even(my_number):
+    print("even")
+else:
+    print("ei ole")
     
     
 
