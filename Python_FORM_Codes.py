@@ -21,3 +21,14 @@ print(midnight)
 print(now)
 
 print(midnight - now)
+
+====
+
+#KAS KOODIS NUMBER ON PAARIS PAARITU, ...aga annab tulemuseks ikkagi FALSE
+def has_odd(l):
+    for i in l:
+        if i % 2 != 0:  #check if odd = PAARITU
+            result = True
+    return False
+
+print(has_odd([2,2]))  #True
