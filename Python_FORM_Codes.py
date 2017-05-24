@@ -45,6 +45,44 @@ for i in range(10):
 for i in "Hello":
     print(i)nc
     
+    
+    
+    
+# MEMO April 20
+# Asks for USER INPUT and makes calculation
+input_1 = int(input("Write nr: "))
+input_2 = int(input("Write nr: "))
+print(input_1 + input_2)   
+
+
+number_1 = input('Write nr: ')
+number_2 = input('Write nr: ')
+if number_1.isdigit() and number_2.isdigit():
+    print(int(number_1) + int(number_2))
+else:
+    print("VALID INTEGERS ONLY")
+
+…
+number_1 = input('Write nr: ')
+number_2 = input('Write nr: ')
+try:
+    number_1 = int(number_1)
+    number_2 = int(number_2)
+except:
+    print("VALID INTEGERS ONLY")
+else:
+    print("VALID INTEGERS ONLY")
+
+…
+siin on miski KIRJAVIGA SEES:
+class NotIntegerError(Exception):
+    pass
+number_1 = input('Write nr: ')
+number_2 = input('Write nr: ')
+if not (number_1.isdigit() and number_2.isdigit()):
+    raise NotIntegerError('Either {0} or {1} is not a number '.format(number_2, number_2))
+if not number_2.isdigit()):
+    raise NotIntegerError('Either {0} or {1} is not a number '.format(number_2, number_2))
 
 
     
