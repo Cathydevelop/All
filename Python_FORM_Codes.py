@@ -2,6 +2,8 @@
 ...tühi nimekiri seadistatakse nii >>> a = []
 ...suva asja saab sisse panna  >>> a = [1,2,3,7,9]
 
+python3 -m unittest FORM.py
+
 minu_asi = [1,2,3,7,9]
 print(minu_asi)
 
