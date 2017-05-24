@@ -1,11 +1,9 @@
-#TULEMUSEKS TEEB LOETELU ALATES 0 KUNI 10
-for i in range(10):
-    print(i)
-    
-#TULEMUSEKS loetleb tähehaaval mis palutud
-for i in "Hello":
-    print(i)nc
-    
+test_function([2,4])
+tühi nimekiri seadistatakse nii >>> a = []
+suva asja saab sisse panna  >>> a = [1,2,3,7,9]
+
+minu_asi = [1,2,3,7,9]
+print(minu_asi)
 
 # KAS NUMBER ON PAARIS PAARITU
 my_number = 3
@@ -13,6 +11,7 @@ if my_number % 2 == 0:
     print("even")
 else:
     print("odd")
+
  #also this works
 my_number = 10
 if my_number % 2 == 0:
@@ -29,13 +28,25 @@ def is_even(n):
         return True
     else:
         return False
-if is_even(my_number):
+if is_even(my_number):      #NB! Siin on ühe asja teise kõhtu asetamine
     print("even")
 else:
     print("ei ole")
     
     
 
+#LOOP, TULEMUSEKS TEEB LOETELU ALATES 0 KUNI 10
+for i in range(10):
+    print(i)
+    
+#LOOP, TULEMUSEKS loetleb tähehaaval mis palutud
+for i in "Hello":
+    print(i)nc
+    
+
+
+    
+   
 
 # PROVIDE TODAY' DATE; HOW MANY DAYS FROM THE YEAR START
 # IT RESULTS AS:
