@@ -1,6 +1,6 @@
-test_function([2,4])
-tühi nimekiri seadistatakse nii >>> a = []
-suva asja saab sisse panna  >>> a = [1,2,3,7,9]
+...test_function([2,4])
+...tühi nimekiri seadistatakse nii >>> a = []
+...suva asja saab sisse panna  >>> a = [1,2,3,7,9]
 
 minu_asi = [1,2,3,7,9]
 print(minu_asi)
