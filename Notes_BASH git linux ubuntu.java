@@ -1,4 +1,16 @@
-BACH: GIT & GITHUB + UBUNTU + IntelliJ usage
+CMD Python:
+# for commentout
+“””commentout
+“””
+
+LAUNCH OPEN: ipython/		 python3 project1.py
+exit() MIS VEEL VÄLJUMISEKS? command cmd+ C vist
+pass - lubab meetodist väljuda
+pip3 install flask 
+
+
+
+CMD GIT IntelliJ Java:
 UBUNTU https://help.ubuntu.com/community/KeyboardShortcuts
 TERMINAL BASH: http://ss64.com/bash/
 cd				juuretasand
