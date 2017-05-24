@@ -1,3 +1,9 @@
+#TULEMUSEKS TEEB LOETELU ALATES 0 KUNI 10
+for i in range(10):
+    print(i)
+    
+    
+
 # KAS NUMBER ON PAARIS PAARITU
 my_number = 3
 if my_number % 2 == 0:
