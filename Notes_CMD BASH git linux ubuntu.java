@@ -8,8 +8,13 @@ exit() MIS VEEL VÄLJUMISEKS? command cmd+ C vist
 pass - lubab meetodist väljuda
 pip3 install flask 
 
+which python3  —näitab asukoha, kuna selgus et mul pole pythin3 siin: /usr/bin, hoopis mujal oli see!
+/usr/bin
+cd / näitab Home algusest
 
 
+
+######
 CMD GIT IntelliJ Java:
 UBUNTU https://help.ubuntu.com/community/KeyboardShortcuts
 TERMINAL BASH: http://ss64.com/bash/
