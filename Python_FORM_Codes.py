@@ -7,6 +7,16 @@ python3 -m unittest FORM.py
 ├── test_btc_price.py
 ├── __init__.py
 https://wiki.itcollege.ee/index.php/I719_Fundamentals_of_Python/testing
+    
+ERRORS
+TabError: inconsistent use of tabs and spaces in indentation
+    
+WWW VARIA
+http://www.pythonforbeginners.com/basics/string-manipulation-in-python
+https://www.tutorialspoint.com/python/python_strings.htm
+https://www.tutorialspoint.com/python/python_strings.htm
+http://pythoncentral.io/multiplying-dividing-numbers-python/
+    
 
 minu_asi = [1,2,3,7,9]
 print(minu_asi)
