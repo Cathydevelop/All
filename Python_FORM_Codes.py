@@ -3,6 +3,10 @@
 ...suva asja saab sisse panna  >>> a = [1,2,3,7,9]
 
 python3 -m unittest FORM.py
+├── btc_price.py
+├── test_btc_price.py
+├── __init__.py
+https://wiki.itcollege.ee/index.php/I719_Fundamentals_of_Python/testing
 
 minu_asi = [1,2,3,7,9]
 print(minu_asi)
